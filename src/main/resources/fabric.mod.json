@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "smartnametags",
+  "version": "${version}",
+  "name": "SmartNameTags",
+  "description": "Make nametags more intelligent.",
+  "authors": [
+    "Mental Illness"
+  ],
+  "contact": {
+    "repo": "https://github.com/MentalIllness/SmartNameTags"
+  },
+  "icon": "icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "dev.statesecurity.smartnametags.SmartNameTags"
+    ]
+  },
+  "mixins": [
+    "smartnametags.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.13.0",
+    "minecraft": ">=1.18",
+    "fabric-api-base": "*",
+    "fabric-lifecycle-events-v1": "*",
+    "fabric-key-binding-api-v1": "*"
+  }
+}
