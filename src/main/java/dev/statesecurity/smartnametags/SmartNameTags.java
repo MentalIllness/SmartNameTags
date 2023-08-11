@@ -16,9 +16,9 @@ public class SmartNameTags implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("[SmartNameTags] V1 Started!");
+        LOGGER.info("[SmartNameTags] V2 Started!");
         // Register your custom block to make sure the mod is installed on the client side
-        Registry.register(Registries.BLOCK, new Identifier("smartnametags", "smartnametagschecker"), CLIENT_SIDE_CHECK);
+        Registry.register(Registries.BLOCK, new Identifier("smartnametags", "smartnametagsv2checker"), CLIENT_SIDE_CHECK);
     }
 }
 
